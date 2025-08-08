@@ -1,0 +1,27 @@
+# Web Page Data Extraction Script
+
+## Project Overview
+Build a script that reads HTML tag values from specific web pages and outputs status information.
+
+## Tech Stack
+- **Engine**: Node.js (v20)
+- **Web Scraping**: Puppeteer
+
+## Requirements
+
+### Authentication
+- Support login-required pages using `.env` file for credentials
+- Reference username/password from environment variables
+
+### HTML Analysis
+- Implement scenario-based HTML code analysis with example code
+- Example: Find parent tags of elements containing specific text strings
+- Parse and extract desired data from target elements
+
+### Output
+- Display extracted results after successful HTML analysis and data acquisition
+
+## Implementation Notes
+- Keep scraping logic modular for different page structures
+- Handle authentication flow gracefully
+- Provide clear error handling for failed extractions
